@@ -1,0 +1,18 @@
+footer {
+  background-color: #0d379b;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+
+  text-align: center;
+
+  transition: background-color 0.3s;
+}
+
+body.dark-mode footer {
+  background-color: #111111;
+}
